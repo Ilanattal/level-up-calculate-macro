@@ -17,7 +17,12 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '17'  # Assure-toi d'utiliser une version de Node.js >= 17
+          node-version: '16'  # Utilisation de la version LTS de Node.js (16.x ou 18.x)
+
+      - name: Verify Node and NPM version
+        run: |
+          node -v
+          npm -v
 
       - name: Install dependencies
         run: npm install
