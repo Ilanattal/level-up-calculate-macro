@@ -1,5 +1,6 @@
 {
   "name": "calculateur-macro-prix",
+  "homepage": "https://ilanattal.github.io/calculate-macro/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
